@@ -54,11 +54,26 @@ footer {
 /* Add these rules to your styles.css file */
 
 #intro {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.headshot,
+.profile-info {
+    z-index: 1;
 }
 
 .headshot img {
