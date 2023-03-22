@@ -1,7 +1,9 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -22,8 +24,73 @@ header li {
 header a {
     text-decoration: none;
     color: #fff;
+    transition: color 0.3s;
 }
 
-h1, h2 {
+header a:hover {
+    color: #ccc;
+}
+
+#hero {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.3rem;
+}
+
+.github-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.github-btn:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
     color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
 }
