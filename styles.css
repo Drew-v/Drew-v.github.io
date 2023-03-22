@@ -51,3 +51,33 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+/* Add these rules to your styles.css file */
+
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.headshot img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.resume a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.resume a:hover {
+    background-color: #555;
+}
