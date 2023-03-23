@@ -99,22 +99,22 @@ footer {
 }
 
 .headshot img {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 70%;
+    max-height: 70%;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 350) {
     .headshot img {
-        width: 40vw; /* set the width of the image to 30% of the viewport width */
-        height: 40vw; /* set the height of the image to 30% of the viewport width */
+        width: 45vw; /* set the width of the image to 30% of the viewport width */
+        height: 50vw; /* set the height of the image to 30% of the viewport width */
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650) {
     .headshot img {
         width: 35vw; /* set the width of the image to 25% of the viewport width */
         height: 35vw; /* set the height of the image to 25% of the viewport width */
