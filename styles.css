@@ -99,12 +99,27 @@ footer {
 }
 
 .headshot img {
-    max-width: 120%;
+    max-width: 60%;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
 }
+
+@media (min-width: 200px) {
+    .headshot img {
+        width: 40vw; /* set the width of the image to 30% of the viewport width */
+        height: 40vw; /* set the height of the image to 30% of the viewport width */
+    }
+}
+
+@media (min-width: 600px) {
+    .headshot img {
+        width: 35vw; /* set the width of the image to 25% of the viewport width */
+        height: 35vw; /* set the height of the image to 25% of the viewport width */
+    }
+}
+
 
 .profile-info {
     margin-left: 1rem;
