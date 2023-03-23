@@ -20,8 +20,8 @@ h2 {
 
 #about {
     background-color: #ffffff;
-    margin-top: 2;
-    margin-bottom: 2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #projects {
@@ -29,7 +29,7 @@ h2 {
     padding: 2rem;
 }
 
-#footer {
+footer {
     background: #333;
     color: #fff;
     padding: 1rem;
