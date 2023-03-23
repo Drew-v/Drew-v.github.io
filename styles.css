@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
     padding: 2rem;
 }
 
-footer {
+#footer {
     background: #333;
     color: #fff;
     padding: 1rem;
