@@ -10,29 +10,6 @@ body {
     background-color: #f5f5f5; /* light grey webpage background */
 }
 
-header {
-    background: #333;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-
-header nav ul li {
-    margin-left: 1rem;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 section {
     margin-bottom: 2rem;
 }
