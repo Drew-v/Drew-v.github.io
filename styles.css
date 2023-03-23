@@ -77,7 +77,7 @@ footer {
     justify-content: center;
     margin-bottom: 2rem;
     position: absolute;
-    bottom: 85%;
+    bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
 }
