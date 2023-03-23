@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f5f5f5; /* light grey webpage background */
+    background-color: #e3e3e3; /* light grey webpage background */
 }
 
 section {
@@ -18,7 +18,7 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
-#about {
+main #about {
     background-color: #ffffff;
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
