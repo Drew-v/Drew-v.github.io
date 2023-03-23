@@ -41,6 +41,16 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
+#about {
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+#projects {
+    background-color: #f5f5f5;
+    padding: 2rem;
+}
+
 footer {
     background: #333;
     color: #fff;
