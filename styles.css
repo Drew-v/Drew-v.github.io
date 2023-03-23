@@ -29,13 +29,24 @@ h2 {
     padding: 2rem;
 }
 
-footer {
+#footer {
     background: #333;
     color: #fff;
     padding: 1rem;
     text-align: center;
 }
-/* Add these rules to your styles.css file */
+
+#footer a:link {
+    color: #ffffff;
+}
+
+#footer a:visited {
+    color: #ffffff;
+}
+
+#footer a:hover {
+    color: #e4f3ff;
+}
 
 #intro {
     position: relative;
