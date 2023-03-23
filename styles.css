@@ -60,6 +60,30 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2rem;
+    background-color: #1a237e; /* Dark blue background */
+    color: #ffffff; /* White text color */
+    padding: 2rem; /* Add padding for better spacing */
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-color: #1a237e; /* Dark blue background */
+    color: #ffffff; /* White text color */
+    padding: 2rem; /* Add padding for better spacing */
+}
+
+#social-links a {
+    color: #ffffff; /* White color */
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#social-links a:hover {
+    color: #90caf9; /* Lighter blue color */
 }
 
 #particles-js {
@@ -91,24 +115,6 @@ footer {
 .profile-info h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-}
-
-#social-links {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
-#social-links a {
-    color: #333;
-    font-size: 1.5rem;
-    margin: 0 0.5rem;
-    text-decoration: none;
-    transition: color 0.3s;
-    }
-    
-    #social-links a:hover {
-    color: #555;
 }
 
 .project-grid {
