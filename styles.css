@@ -108,12 +108,19 @@ footer {
 
 .profile-info {
     margin-left: 1rem;
+    text-align: center; 
 }
 
 .profile-info h1 {
-    font-size: 2rem;
+    font-size: 4rem; 
     margin-bottom: 0.5rem;
 }
+
+.profile-info p {
+    font-size: 2rem; 
+    margin-bottom: 0.5rem;
+}
+
 
 .project-grid {
     display: grid;
