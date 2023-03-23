@@ -20,8 +20,8 @@ h2 {
 
 #about {
     background-color: #ffffff;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
 }
 
 #projects {
