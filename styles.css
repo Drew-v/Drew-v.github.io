@@ -106,21 +106,6 @@ footer {
     object-position: center;
 }
 
-@media (min-width: 400px) {
-    .headshot img {
-        width: 30vw; /* set the width of the image to 30% of the viewport width */
-        height: 30vw; /* set the height of the image to 30% of the viewport width */
-    }
-}
-
-@media (min-width: 768px) {
-    .headshot img {
-        width: 20vw; /* set the width of the image to 25% of the viewport width */
-        height: 20vw; /* set the height of the image to 25% of the viewport width */
-    }
-}
-
-
 .profile-info {
     margin-left: 1rem;
     text-align: center; 
