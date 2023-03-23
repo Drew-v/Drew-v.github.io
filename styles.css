@@ -99,12 +99,27 @@ footer {
 }
 
 .headshot img {
-    width: 400px;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
 }
+
+@media (min-width: 768px) {
+    .headshot img {
+        width: 30vw; /* set the width of the image to 30% of the viewport width */
+        height: 30vw; /* set the height of the image to 30% of the viewport width */
+    }
+}
+
+@media (min-width: 1024px) {
+    .headshot img {
+        width: 25vw; /* set the width of the image to 25% of the viewport width */
+        height: 25vw; /* set the height of the image to 25% of the viewport width */
+    }
+}
+
 
 .profile-info {
     margin-left: 1rem;
@@ -112,13 +127,13 @@ footer {
 }
 
 .profile-info h1 {
-    font-size: 4rem; 
+    font-size: 3rem; 
     margin-bottom: 0.5rem;
 }
 
 .profile-info p {
-    font-size: 2rem; 
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem; 
+    margin-bottom: 0.25rem;
 }
 
 
