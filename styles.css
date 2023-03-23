@@ -99,7 +99,7 @@ footer {
 }
 
 .headshot img {
-    max-width: 100%;
+    max-width: 120%;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
@@ -115,8 +115,8 @@ footer {
 
 @media (min-width: 1024px) {
     .headshot img {
-        width: 25vw; /* set the width of the image to 25% of the viewport width */
-        height: 25vw; /* set the height of the image to 25% of the viewport width */
+        width: 20vw; /* set the width of the image to 25% of the viewport width */
+        height: 20vw; /* set the height of the image to 25% of the viewport width */
     }
 }
 
