@@ -74,8 +74,8 @@ footer {
 
 #social-links a {
     color: #ffffff; /* White color */
-    font-size: 3rem;
-    margin: 0 1rem;
+    font-size: 2.3rem;
+    margin: 0 0.75rem;
     text-decoration: none;
     transition: color 0.3s;
 }
