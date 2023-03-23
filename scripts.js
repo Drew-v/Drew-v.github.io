@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    gsap.from("header", { duration: 1, y: "-100%", ease: "bounce" });
     gsap.from("section", { duration: 1, x: "-100vw", stagger: 0.5, delay: 1, ease: "power3.out" });
 
     $("#down-arrow a").on("click", function (e) {

@@ -43,7 +43,6 @@ h2 {
 
 #about {
     background-color: #ffffff;
-    padding: 2rem;
 }
 
 #projects {
@@ -77,7 +76,7 @@ footer {
     justify-content: center;
     margin-bottom: 2rem;
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
 }
