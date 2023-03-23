@@ -14,7 +14,7 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
-#about {
+about {
     background-color: #ffffff;
     margin-top: 2;
     margin-bottom: 2;
@@ -30,18 +30,6 @@ h2 {
     color: #fff;
     padding: 1rem;
     text-align: center;
-}
-
-#footer a:link {
-    color: #ffffff;
-}
-
-#footer a:visited {
-    color: #ffffff;
-}
-
-#footer a:hover {
-    color: #e4f3ff;
 }
 
 #intro {
