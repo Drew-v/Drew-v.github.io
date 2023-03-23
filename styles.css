@@ -18,7 +18,7 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
-about {
+#about {
     background-color: #ffffff;
     margin-top: 2;
     margin-bottom: 2;
@@ -29,7 +29,7 @@ about {
     padding: 2rem;
 }
 
-footer {
+#footer {
     background: #333;
     color: #fff;
     padding: 1rem;
